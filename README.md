@@ -48,11 +48,11 @@ Check out the SKETCHES folder to see my drawings of the desktop, tablet, and mob
 
 #### Desktop Version
 
-![desktop user interface](wireframes/desktop_screenshot.png)
+![desktop user interface](sketch/wireframes/desktop_screenshot.png)
 
 #### Mobile Version
 
-![mobile user interface](wireframes/mobile_screenshot.png)
+![mobile user interface](sketch/wireframes/mobile_screenshot.png)
 
 ### Technologies and Resources
 
