@@ -5,6 +5,11 @@
 
 As a freelance developer, This project involves shaping the design and structure of a responsive website, including a mobile version, for a brand new community workspace.
 
+## Installation
+* Clone project folder in terminal: `$ git clone` repository url
+* In terminal, run `$ npm install` in project folder home directory
+* In terminal, run `$ ng serve --open` to view in browser
+
 ### Brainstorming
 
 The workspace theme keywords:
@@ -55,8 +60,11 @@ Check out the SKETCHES folder to see my drawings of the desktop, tablet, and mob
 ![mobile user interface](wireframes/mobile_screenshot.png)
 
 ### Technologies and Resources
-
 * Sketch
+* HTML
+* CSS/SASS
+* Node/Webpack
+* Angular
 
 ### License
 
