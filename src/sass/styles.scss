@@ -157,6 +157,8 @@
   }
 }
 
+// tablet and desktop views
+
 @media screen and (min-width: 670px) {
   .hamburger {
     display: none;
@@ -173,6 +175,28 @@
     }
     a {
       padding: 10px 10px;
+    }
+  }
+  .amenities {
+    .grid-title {
+      grid-column: 1 / 5;
+      grid-row: 1 / 2;
+    }
+    .amenity1 {
+      grid-column: 1 / 2;
+      grid-row: 2 / 4;
+    }
+    .amenity2 {
+      grid-column: 2 / 3;
+      grid-row: 2 / 4;
+    }
+    .amenity3 {
+      grid-column: 3 / 4;
+      grid-row: 2 / 4;
+    }
+    .amenity4 {
+      grid-column: 4 / 5;
+      grid-row: 2 / 4;
     }
   }
 }
