@@ -6,4 +6,22 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
+  color: $brown;
+}
+
+.header {
+  background-color: $brown;
+  h1 {
+    color: white;
+  }
+  .logo-color {
+    color: $pink;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: $pink;
+    }
+  }
 }
