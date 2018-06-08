@@ -12,7 +12,9 @@
   border-radius: 7px;
   font-size: 1em;
   font-weight: bolder;
+  transition: .3s;
   &:hover {
     cursor: pointer;
+    transition: .5s;
   }
 }
