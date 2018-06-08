@@ -45,13 +45,16 @@
   background-color: $brown;
   h1 {
     color: white;
-    margin-right: 10px;
+    margin: 0 10px;
   }
   .logo-color {
     color: $pink;
   }
   .hamburger {
-    margin-left: 10px;
+    margin: 0 10px;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
@@ -59,7 +62,7 @@
   position: relative;
   img {
     width: 100%;
-    height: 550px;
+    height: 650px;
     object-fit: cover;
   }
   h1 {
@@ -151,5 +154,25 @@
     line-height: 25px;
     font-size: 0.8em;
     color: white;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .hamburger {
+    display: none;
+  }
+  .header {
+    flex-direction: row-reverse;
+  }
+  .navbar {
+    display: flex;
+    position: relative;
+    box-shadow: none;
+    li {
+      display: inline-block;
+    }
+    a {
+      padding: 10px 10px;
+    }
   }
 }
