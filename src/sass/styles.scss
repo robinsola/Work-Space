@@ -150,7 +150,6 @@
 }
 
 .footer {
-  margin-top: 50px;
   padding: 20px 10px;
   background-color: $brown;
   text-align: center;
@@ -158,6 +157,12 @@
     line-height: 25px;
     font-size: 0.8em;
     color: white;
+  }
+}
+
+.gallery, .img-long {
+  img {
+    width: 100%;
   }
 }
 
@@ -213,5 +218,17 @@
     img {
       width: 100%;
     }
+  }
+  .gallery {
+    display: flex;
+    .img {
+      margin: 5px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .img-long {
+    margin: 5px;
   }
 }
