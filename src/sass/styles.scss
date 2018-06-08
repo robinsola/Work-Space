@@ -9,15 +9,26 @@
   color: $brown;
 }
 
-.header {
-  background-color: $brown;
-  h1 {
-    color: white;
+.dropdown {
+  position: relative;
+  display: inline-block;
+  &:hover .navbar {
+    display: block;
   }
-  .logo-color {
-    color: $pink;
+}
+
+.navbar {
+  display: none;
+  position: absolute;
+  background-color: $brown;
+  box-shadow: 4px 8px 16px 0px rgba(0,0,0,0.4);
+  z-index: 999;
+  li {
+    list-style: none;
   }
   a {
+    padding: 10px 20px;
+    display: block;
     color: white;
     text-decoration: none;
     &:hover {
@@ -26,11 +37,29 @@
   }
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: $brown;
+  h1 {
+    color: white;
+    margin-right: 10px;
+  }
+  .logo-color {
+    color: $pink;
+  }
+  .hamburger {
+    margin-left: 10px;
+  }
+}
+
 .header-image {
   position: relative;
   img {
     width: 100%;
-    height: 470px;
+    height: 550px;
     object-fit: cover;
   }
   h1 {
@@ -80,6 +109,7 @@
 
 .events {
   @include icon-grid;
+  margin-top: 50px;
   .grid-title {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
@@ -113,6 +143,7 @@
 }
 
 .footer {
+  margin-top: 50px;
   padding: 20px 0;
   background-color: $brown;
   text-align: center;
