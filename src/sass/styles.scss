@@ -26,6 +26,10 @@
   }
 }
 
+.transparent {
+  background-color: white;
+}
+
 .header-image {
   position: relative;
   img {
@@ -109,5 +113,16 @@
       border: 1px solid $pink;
       color: $pink;
     }
+  }
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: $brown;
+  text-align: center;
+  p {
+    line-height: 25px;
+    font-size: 0.8em;
+    color: white;
   }
 }
