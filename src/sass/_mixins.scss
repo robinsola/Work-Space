@@ -18,3 +18,13 @@
     transition: .5s;
   }
 }
+
+@mixin rates {
+  width: 330px;
+  margin: 10px;
+  border-radius: 7px;
+  padding: 30px;
+  h3:first-of-type {
+    border-bottom: 1px solid $brown;
+  }
+}
