@@ -29,8 +29,8 @@
 }
 
 .contact-form {
+  background-color: $light-gray;
   padding: 20px 0;
-  background-color: lighten(#50514F, 50%);
   display: flex;
   justify-content: center;
   form {
