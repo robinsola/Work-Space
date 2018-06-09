@@ -156,6 +156,15 @@
   padding: 20px 10px;
   background-color: $brown;
   text-align: center;
+  img {
+    width: 30px;
+    margin: 5px;
+    &:hover {
+      cursor: pointer;
+      filter: brightness(65%);
+      transition: .5s;
+    }
+  }
   p {
     line-height: 25px;
     font-size: 0.8em;
