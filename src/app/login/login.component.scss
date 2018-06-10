@@ -1,0 +1,64 @@
+@import './src/sass/mixins';
+@import './src/sass/variables';
+
+.center-text {
+  margin: 20px;
+  text-align: center;
+  h2 {
+    margin-top: 30px;
+  }
+}
+
+.login-form {
+  background-color: lighten($blue, 50%);
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  form {
+    width: 300px;
+    input {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 5px;
+    }
+    .button {
+      @include button;
+      color: white;
+      background-color: $blue;
+      margin: 10px auto;
+      &:hover {
+        background-color: white;
+        border: 1px solid $blue;
+        color: $blue;
+      }
+    }
+  }
+}
+
+.contact-form {
+  background-color: $light-gray;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  form {
+    width: 300px;
+    input {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 5px;
+    }
+    .button {
+      @include button;
+      color: white;
+      background-color: $blue;
+      margin: 10px auto;
+      &:hover {
+        background-color: white;
+        border: 1px solid $blue;
+        color: $blue;
+      }
+    }
+  }
+}
