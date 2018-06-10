@@ -1,0 +1,9 @@
+@import './src/sass/mixins';
+@import './src/sass/variables';
+
+.img-long {
+  @include set-image;
+  .text-box {
+    @include set-text;
+  }
+}

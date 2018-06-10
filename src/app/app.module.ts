@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { WorkspaceComponent } from './workspace/workspace.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { CalendarComponent } from './calendar/calendar.component';
     ContactComponent,
     HomeComponent,
     GalleryComponent,
-    CalendarComponent
+    CalendarComponent,
+    WorkspaceComponent
   ],
   imports: [
     BrowserModule,
