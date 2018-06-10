@@ -69,10 +69,11 @@
     object-fit: cover;
   }
   h1 {
+    font-family: helvetica;
     position: absolute;
-    top: 28px;
-    left: 15%;
-    font-size: 2.5em;
+    top: 30px;
+    left: 10%;
+    font-size: 2.8em;
   }
   button {
     @include button;
