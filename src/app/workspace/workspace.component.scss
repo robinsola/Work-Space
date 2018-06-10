@@ -3,7 +3,18 @@
 
 .img-long {
   @include set-image;
-  .text-box {
+  .text-box, .text-box-right {
     @include set-text;
+    width: 100%;
+  }
+
+@media screen and (min-width: 670px) {
+    .text-box {
+      @include set-text;
+    }
+    .text-box-right {
+      @include set-text;
+      right: 0;
+    }
   }
 }
