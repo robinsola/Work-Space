@@ -5,11 +5,15 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { LoginComponent } from './login/login.component';
+import { WorkspaceComponent } from './workspace/workspace.component';
 
 
 const appRoutes: Routes = [
   { path: '',
     component: HomeComponent
+  },
+  { path: 'workspace',
+    component: WorkspaceComponent
   },
   { path: 'calendar',
     component: CalendarComponent
