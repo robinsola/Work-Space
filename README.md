@@ -1,6 +1,14 @@
 ## Freelance for Workspace
 ##### Robin Sola // June 1, 2018
 ---
+#### Desktop Version
+
+![desktop user interface](wireframes/desktop_screenshot.png)
+
+#### Mobile Version
+
+![mobile user interface](wireframes/mobile_screenshot.png)
+
 ### Description
 
 As a freelance developer, This project involves shaping the design and structure of a responsive website, including a mobile version, for a brand new community workspace.
@@ -47,25 +55,18 @@ Site Content:
 * Amenities (with icons): Coffee Counter, Communal or private spaces, High Speed Internet, Printing and Faxing, Thursday Activities (yoga, food, crafts)
 * Links: Member Login, Contact Us, Take a Tour, Events Calendar, Location Info, Become a Member
 
-### Images
-
-Check out the SKETCHES folder to see my drawings of the desktop, tablet, and mobile views of the main page and contact page.
-
-#### Desktop Version
-
-![desktop user interface](wireframes/desktop_screenshot.png)
-
-#### Mobile Version
-
-![mobile user interface](wireframes/mobile_screenshot.png)
 
 ### Technologies and Resources
 * Sketch
+* npm/Webpack
 * HTML
-* CSS/SASS
-* Node/Webpack
+* CSS / SASS
 * Angular
 
 ### License
+##### Copyright (c) 2018 Robin Sola.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Copyright (c) 2018 Robin Sola
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
